@@ -11,7 +11,7 @@ while True:
         continue
     Random=random.randint(0,2)
     computer_pick=options[Random]
-    print("Computer picked " + computer_pick + " .")
+    print(" 💻 Computer picked " + computer_pick + " .")
     if user_input=="rock" and computer_pick=="scissor":
         print("You Won!")
         user_win+=1
